@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Liking Likes</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style2.css">
+        <link rel="stylesheet" href="./normalize.css">
+    </head>
+    <body>
+        <nav>
+            <h1>Network</h1>
+        </nav>
+
+
+        <section>
+            <h1 class="title">Your Feed</h1>
+            <div class= "content">
+                <sidebar>
+                    <img src="./icons/user-circle.png">
+                    <a>Add an avatar</a>
+                    <h2>James Doe</h2>
+
+                </sidebar>
+            
+                <div class="main">
+                
+                    <container>
+                        <div class="header">
+                            <div><h2>Neil M</h2></div>
+                            <div class="like">
+                                <h3><span>9</span> like(s)</h3>
+                                <button onclick="addLike(likes_array[0])">Like</button>
+                            </div>
+                        </div>
+
+                        <div class="comment">
+                            <h3>I just set up this new discord bot, let me know what you all think. <a>link</a></h3>
+
+                        </div>
+                    </container>
+                    
+                    <container>
+                        <div class="header">
+                            <div><h2>Nichole K</h2></div>
+                            <div class="like">
+                                <h3><span>12</span> like(s)</h3>
+                                <button onclick="addLike(likes_array[1])">Like</button>
+                            </div>
+                        </div>
+
+                        <div class="comment">
+                            <h3>Just finished my <a>next comic</a>, check it out.</h3>
+
+                        </div>
+                    </container>
+
+
+                    <container>
+                        <div class="header">
+                            <div><h2>Jim R</h2></div>
+                            <div class="like">
+                                <h3><span>9</span> like(s)</h3>
+                                <button onclick="addLike(likes_array[2])">Like</button>
+                            </div>
+                        </div>
+
+                        <div class="comment">
+                            <h3>I can't stop listening to the <a>new album.</a><br>Who else is liking it?</h3>
+
+                        </div>
+                    </container>
+                </div>
+        
+            </div>
+        </section>
+        
+        
+        <script src="./script.js" async defer></script>
+    </body>
+</html>

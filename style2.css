@@ -1,0 +1,135 @@
+nav{
+    background-color: black;
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+
+}
+
+nav h1{
+    margin: 0;
+
+}
+
+
+.title{
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+
+}
+
+section{
+
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+sidebar{
+    width: 25%;
+    margin-right: 5%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 3px solid black;
+    align-items: center;
+    text-align: center;
+    padding: 20px 5px;
+
+}
+
+sidebar a{
+
+    margin-top: 30px;
+    color: blue;
+    text-decoration: underline;
+}
+
+img{
+
+    width: 80px;
+
+}
+
+.content{
+    display:flex;
+    flex-direction: row;
+
+}
+
+.main{
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+container{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    border: 4px solid black;
+    font-family: Helvetica;
+    margin-bottom: 20px;
+}
+
+container .header{
+
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 20px;
+
+}
+
+
+
+.header h2, .header h3{
+    margin: 0px;
+    margin-right: 40px;
+
+}
+
+.header .like{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+button{
+    height: 30px;
+    background-color: #ffd966;
+    border: 2px solid black;
+    box-shadow: 3px 3px black, -1px -1px black;
+    margin-left: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.comment{
+
+    padding:10px 20px;
+
+}
+
+.comment a {
+        color: blue;
+        text-decoration: underline;
+    
+}
+
